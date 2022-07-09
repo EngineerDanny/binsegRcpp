@@ -6,3 +6,4 @@ README.org
 build.sh
 ^\.github$
 ^codecov\.yml$
+^Rperform$
