@@ -6,7 +6,7 @@ glue::glue(
   " after running `",
   test_function,
   "` function",
-  " on this PR branch",
+  " on this PR branch ",
   "\n",
   "<br/> <br/>",
   image_url
