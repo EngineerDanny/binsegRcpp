@@ -1,0 +1,4 @@
+The table below represents the test results generated after running `test_function` function on this PR branch 
+<br/> <br/>![image](https://raw.githubusercontent.com/EngineerDanny/binsegRcpp/rperform-branch/rperform-results/TimeMetrics_1657551349/test_image.png)
+
+Further explanation regarding interpretation and methodology can be found in the [documentation](https://github.com/analyticalmonk/Rperform#readme).
