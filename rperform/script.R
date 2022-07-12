@@ -10,7 +10,7 @@ Rperform::plot_metrics(
 
 Rperform::plot_metrics(
     test_path = "tests/testthat/test-CRAN.R",
-    metric = "time", num_commits = 14, save_data = TRUE,
+    metric = "memory", num_commits = 14, save_data = TRUE,
     save_plots = TRUE
 )
 
