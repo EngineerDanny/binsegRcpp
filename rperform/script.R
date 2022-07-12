@@ -38,7 +38,7 @@
 
 ## TEST 5
  Rperform::plot_branchmetrics(
-   test_path = "inst/tests/test-check.r",
+   test_path = "tests/testthat/test-CRAN.R",
    metric = "time",
    branch1 = "l1loss",
    branch2 = "master",
