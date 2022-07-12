@@ -2,17 +2,17 @@
 # NOTE: save_data argument must be set to TRUE for plot_metrics functions.
 
 ## TEST 1
-Rperform::plot_metrics(
-    test_path = "tests/testthat/test-CRAN.R",
-    metric = "time", num_commits = 9, save_data = TRUE,
-    save_plots = TRUE
-)
+# Rperform::plot_metrics(
+#     test_path = "tests/testthat/test-CRAN.R",
+#     metric = "time", num_commits = 9, save_data = TRUE,
+#     save_plots = TRUE
+# )
 
-Rperform::plot_metrics(
-    test_path = "tests/testthat/test-CRAN.R",
-    metric = "memory", num_commits = 14, save_data = TRUE,
-    save_plots = TRUE
-)
+# Rperform::plot_metrics(
+#     test_path = "tests/testthat/test-CRAN.R",
+#     metric = "memory", num_commits = 14, save_data = TRUE,
+#     save_plots = TRUE
+# )
 
 
 ## TEST 2
@@ -37,11 +37,11 @@ Rperform::plot_metrics(
 # )
 
 ## TEST 5
-#  Rperform::plot_branchmetrics(
-#    test_path = "inst/tests/test-check.r",
-#    metric = "time",
-#    branch1 = "rperform_test",
-#    branch2 = "master",
-#    save_data = T,
-#    save_plots = F
-# )
+ Rperform::plot_branchmetrics(
+   test_path = "inst/tests/test-check.r",
+   metric = "time",
+   branch1 = "l1loss",
+   branch2 = "master",
+   save_data = TRUE,
+   save_plots = TRUE
+)
