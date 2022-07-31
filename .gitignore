@@ -5,3 +5,5 @@ src-*/
 *o
 *so
 *dll
+.Rproj.user
+.gitignore
