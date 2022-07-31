@@ -7,3 +7,5 @@ build.sh
 ^\.github$
 ^codecov\.yml$
 ^Rperform$
+^.*\.Rproj$
+^\.Rproj\.user$
